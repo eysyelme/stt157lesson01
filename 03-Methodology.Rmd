@@ -1,0 +1,14 @@
+# Methodology
+
+Insert Methodology here.
+
+According to [@sanchez2019sentence]
+
+
+`r stringi::stri_rand_lipsum(1)`
+
+`r stringi::stri_rand_lipsum(1)`
+
+`r stringi::stri_rand_lipsum(1)`
+
+`r stringi::stri_rand_lipsum(1)`

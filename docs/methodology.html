@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3 Methodology | Sentence Boundary Detection using Hidden Markov Model</title>
+  <meta name="description" content="3 Methodology | Sentence Boundary Detection using Hidden Markov Model" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3 Methodology | Sentence Boundary Detection using Hidden Markov Model" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3 Methodology | Sentence Boundary Detection using Hidden Markov Model" />
+  
+  
+  
+
+<meta name="author" content="Paig, Eshel May L." />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="review-of-related-literature.html"/>
+
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="review-of-related-literature.html"><a href="review-of-related-literature.html"><i class="fa fa-check"></i><b>2</b> Review of Related Literature</a></li>
+<li class="chapter" data-level="3" data-path="methodology.html"><a href="methodology.html"><i class="fa fa-check"></i><b>3</b> Methodology</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Sentence Boundary Detection using Hidden Markov Model</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="methodology" class="section level1" number="3">
+<h1><span class="header-section-number">3</span> Methodology</h1>
+<p>Insert Methodology here.</p>
+<p>According to <span class="citation">(<a href="#ref-sanchez2019sentence" role="doc-biblioref">Sanchez 2019</a>)</span></p>
+<p>Lorem ipsum dolor sit amet, orci ipsum massa fringilla. Porttitor morbi cras quis dapibus. At eu purus tincidunt in egestas at tristique eu. Nibh ipsum sed ut odio lobortis felis. Aliquam senectus in tincidunt donec ante libero semper, posuere amet litora sed porttitor. Lobortis neque posuere turpis magna non interdum. Maximus ac sollicitudin lectus tempus, magna luctus. Pellentesque aptent senectus. Sapien luctus tempor mus justo, nec blandit, senectus ipsum commodo. Mauris himenaeos torquent felis at condimentum in duis, tincidunt. Quam orci, nec ac fringilla per eros odio scelerisque in purus.</p>
+<p>Lorem ipsum dolor sit amet, quis senectus, nec lacinia sollicitudin, justo, ut. Eu elit velit. Nisi vehicula. Orci pulvinar magnis lorem ornare a sed. Molestie porttitor euismod non felis massa ipsum suscipit, ornare scelerisque! Senectus tortor, vivamus massa himenaeos in porttitor. Velit amet dolor quisque pretium sed penatibus, at quis montes. Pharetra vulputate eget quis hendrerit, ultricies augue eleifend aliquam nullam ac blandit eros. Luctus aliquam dui lacus sem. Praesent sit euismod sit feugiat tempor. Ut tincidunt.</p>
+<p>Lorem ipsum dolor sit amet, rhoncus integer proin volutpat arcu arcu curabitur. Sed natoque mi gravida! Tellus mauris sagittis, vel a, consequat ullamcorper in. Eu nec ac elit sed enim vulputate ut! Class ac in elementum ut, nam duis. Sed cursus a urna nam class lacus tristique, in at nec ut sed. Fringilla nibh vulputate ligula odio ut accumsan senectus malesuada purus. Sit lobortis turpis malesuada gravida nam non faucibus vel. Malesuada neque tristique maecenas malesuada nisl, ut in. Sed cum. Inceptos ad a curae nisi auctor sollicitudin.</p>
+<p>Lorem ipsum dolor sit amet, porttitor ante per maximus in ultrices. Quis ac volutpat, eleifend leo, rhoncus nostra. Cum non nostra amet in tempus cum. Iaculis laoreet elementum tincidunt dictum massa vulputate. Curae amet ut sem in nisl rhoncus sed suspendisse, ac. Vel habitasse in maximus faucibus ligula bibendum vulputate torquent, nascetur sed in mus. Lacinia volutpat curabitur bibendum quisque ut ac.</p>
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div class="csl-entry">
+Sanchez, George. 2019. <span>“Sentence Boundary Detection in Legal Text.”</span> In <em>Proceedings of the Natural Legal Language Processing Workshop 2019</em>, 31–38.
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-sanchez2019sentence" class="csl-entry">
+Sanchez, George. 2019. <span>“Sentence Boundary Detection in Legal Text.”</span> In <em>Proceedings of the Natural Legal Language Processing Workshop 2019</em>, 31–38.
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="review-of-related-literature.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
